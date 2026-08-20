@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Cristiano Ronaldo</title>
 
     <style>
@@ -56,19 +53,7 @@
             transition: 0.3s ease;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
-
-        .Navbar button:hover {
-            background: linear-gradient(135deg, #ff4d5a, #d90429);
-            transform: translateY(-3px);
-            box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
-        }
-
-        .Navbar button:active {
-            transform: translateY(0);
-        }
-
-      
-
+    
         .Hero {
             max-width: 1100px;
             min-height: 600px;
@@ -113,13 +98,6 @@
             transition: 0.4s ease;
         }
 
-        .Hero img:hover {
-            transform: scale(1.04);
-            box-shadow:
-                0 15px 35px rgba(0, 0, 0, 0.7),
-                0 0 30px rgba(230, 57, 70, 0.5);
-        }
-
         .Hero h2 {
             color: #e63946;
             font-size: 40px;
@@ -144,205 +122,39 @@
             text-align: center;
         }
 
-      
-
-        .Hero::before {
-            content: "";
-            width: 100px;
-            height: 4px;
-
-            background-color: #e63946;
-
-            margin-bottom: 25px;
-
-            border-radius: 10px;
-
-            box-shadow:
-                0 0 10px rgba(230, 57, 70, 0.6);
-        }
-
-     
-
-        @media (max-width: 900px) {
-
-            .Navbar h1 {
-                font-size: 40px;
-            }
-
-            .Hero {
-                margin: 35px 25px;
-                padding: 45px 30px;
-            }
-
-            .Hero img {
-                width: 330px;
-                height: 235px;
-            }
-
-            .Hero h2 {
-                font-size: 36px;
-            }
-
-            .Hero p {
-                font-size: 19px;
-            }
-
-        }
-
-       
-        @media (max-width: 600px) {
-
-            body {
-                background-color: #363434;
-            }
-
-            .Navbar {
-                padding: 20px 10px;
-            }
-
-            .Navbar h1 {
-                font-size: 32px;
-                margin-bottom: 15px;
-            }
-
-            .Navbar button {
-                padding: 10px 14px;
-                margin: 4px 2px;
-                font-size: 14px;
-                border-radius: 7px;
-            }
-
-            .Hero {
-                min-height: auto;
-
-                margin: 25px 12px;
-                padding: 35px 18px;
-
-                border-radius: 15px;
-            }
-
-            .Hero img {
-                width: 100%;
-                max-width: 330px;
-                height: auto;
-                aspect-ratio: 350 / 250;
-
-                border-width: 3px;
-            }
-
-            .Hero h2 {
-                font-size: 30px;
-                line-height: 1.2;
-
-                margin-top: 28px;
-                margin-bottom: 15px;
-            }
-
-            .Hero p {
-                font-size: 17px;
-                line-height: 1.6;
-
-                max-width: 100%;
-            }
-
-            .Hero::before {
-                width: 80px;
-                height: 3px;
-
-                margin-bottom: 20px;
-            }
-
-        }
-
-       
-
-        @media (max-width: 400px) {
-
-            .Navbar h1 {
-                font-size: 28px;
-            }
-
-            .Navbar button {
-                padding: 9px 11px;
-                font-size: 13px;
-            }
-
-            .Hero {
-                margin: 20px 8px;
-                padding: 30px 15px;
-            }
-
-            .Hero h2 {
-                font-size: 27px;
-            }
-
-            .Hero p {
-                font-size: 16px;
-            }
-
-        }
-
     </style>
 </head>
-
-
 <body>
-
-
     <div class="Navbar">
-
         <h1>Cristiano Ronaldo</h1>
-
-
         <a href="Index.html">
             <button>Home</button>
         </a>
-
-
         <a href="Biodata.html">
             <button>Biodata</button>
         </a>
-
-
         <a href="Career and achievment.html">
             <button>Career & Achievements</button>
         </a>
-
-
         <a href="MiniGame.html">
             <button>Mini Game</button>
         </a>
-
     </div>
-
-
     <div class="Hero">
-
-
         <img
             src="Ronaldo Style.jpeg"
             alt="Cristiano Ronaldo"
         >
-
-
         <h2>
             The Legend of Football
         </h2>
-
-
         <p>
-
             Cristiano Ronaldo is a famous Portuguese football player born on
             February 5, 1985. He is widely known as one of the greatest players
             in the history of football, winning five Ballon d'Or awards and
             scoring over 900 career goals.
 
         </p>
-
-
     </div>
-
-
 </body>
-
 </html>
