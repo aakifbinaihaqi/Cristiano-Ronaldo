@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cristiano Ronaldo</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #363434;
+        }
+
+        .Navbar {
+            background-color: #222;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .Navbar h1 {
+            color: white;
+            font-size: 45px;
+            margin: 10px;
+        }
+
+        .Navbar button {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .Navbar button:hover {
+            background-color: #b71c1c;
+            transform: translateY(-2px);
+        }
+
+        .Hero {
+            max-width: 850px;
+            min-height: 500px;
+            margin: 50px auto;
+            padding: 40px 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+
+            background-color: #292929;
+            border-radius: 15px;
+
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .Hero h2 {
+            color: #d90429;
+            font-size: 45px;
+            margin-bottom: 35px;
+        }
+
+        .PlayButton {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            padding: 18px 55px;
+            border-radius: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .PlayButton:hover {
+            background-color: #b71c1c;
+            transform: scale(1.08);
+        }
+
+        .PlayButton:active {
+            transform: scale(0.98);
+        }
+
+        @media (max-width: 600px) {
+
+            .Navbar {
+                padding: 15px 10px;
+            }
+
+            .Navbar h1 {
+                font-size: 32px;
+            }
+
+            .Navbar button {
+                padding: 10px 14px;
+                font-size: 14px;
+                margin: 4px 2px;
+            }
+
+            .Hero {
+                min-height: 400px;
+                margin: 25px 12px;
+                padding: 30px 15px;
+            }
+
+            .Hero h2 {
+                font-size: 32px;
+            }
+
+            .PlayButton {
+                padding: 15px 45px;
+                font-size: 22px;
+            }
+
+        }
+
+        @media (max-width: 400px) {
+
+            .Navbar h1 {
+                font-size: 28px;
+            }
+
+            .Navbar button {
+                padding: 9px 11px;
+                font-size: 13px;
+            }
+
+            .Hero {
+                margin: 20px 8px;
+                padding: 25px 12px;
+            }
+
+            .Hero h2 {
+                font-size: 28px;
+            }
+
+            .PlayButton {
+                padding: 14px 40px;
+                font-size: 20px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="Navbar">
+
+        <h1>Cristiano Ronaldo</h1>
+
+        <a href="Index.html">
+            <button>Home</button>
+        </a>
+
+        <a href="Biodata.html">
+            <button>Biodata</button>
+        </a>
+
+        <a href="Career and achievment.html">
+            <button>Career & Achievements</button>
+        </a>
+
+        <a href="MiniGame.html">
+            <button>Mini Game</button>
+        </a>
+
+    </div>
+
+
+    <div class="Hero">
+
+        <h2>Mini Game</h2>
+
+        <a href="football.py">
+            <button class="PlayButton">
+                Play
+            </button>
+        </a>
+
+    </div>
+
+</body>
+
+</html>
