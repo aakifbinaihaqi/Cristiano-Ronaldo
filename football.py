@@ -7,16 +7,14 @@ pygame.display.set_caption("Football Game")
 
 clock = pygame.time.Clock()
 
-player = pygame.image.load("Player.png").convert_alpha()
-player = pygame.transform.scale(player, (50, 70))
-
 green = (0, 247, 66)
-
-player_x = 50
-player_y = 200
+blue = (0, 0, 255)
 
 player_width = 50
 player_height = 70
+
+player_x = 50
+player_y = 200
 
 running = True
 
@@ -51,11 +49,13 @@ while running:
     if player_y > 512 - player_height:
         player_y = 512 - player_height
 
-    
     window.fill(green)
 
-   
-    window.blit(player, (player_x, player_y))
+    pygame.draw.rect(
+        window,
+        blue,
+        (player_x, player_y, player_width, player_height)
+    )
 
     pygame.display.flip()
     clock.tick(60)
