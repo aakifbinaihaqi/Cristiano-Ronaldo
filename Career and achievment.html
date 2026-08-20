@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Cristiano Ronaldo</title>
 
     <style>
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #363434;
         }
 
         .Navbar {
             background-color: #222;
             text-align: center;
             padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         }
 
         .Navbar h1 {
@@ -33,119 +38,207 @@
             border-radius: 5px;
             font-size: 16px;
             cursor: pointer;
+            transition: 0.3s;
         }
 
         .Navbar button:hover {
             background-color: #b71c1c;
+            transform: translateY(-2px);
         }
 
         .Hero {
+            max-width: 850px;
+            margin: 50px auto;
+            padding: 40px 30px;
             text-align: center;
-            max-width: 1000px;
-            margin: auto;
-            padding: 40px 20px;
+            background-color: #292929;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
         }
 
         .Hero img {
             width: 400px;
             max-width: 90%;
             border-radius: 10px;
+            border: 3px solid #e63946;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
         }
 
         .Hero h2 {
             color: #d90429;
             font-size: 40px;
-            margin-bottom: 15px;
+            margin-top: 35px;
+            margin-bottom: 25px;
         }
 
         .Hero p {
-            color: #333;
+            color: #ffffff;
             font-size: 20px;
             line-height: 1.6;
+            margin: 12px auto;
+            padding: 12px 18px;
+            max-width: 700px;
+            text-align: left;
+            background-color: #363636;
+            border-left: 4px solid #e63946;
+            border-radius: 5px;
         }
 
         @media (max-width: 600px) {
+
+            .Navbar {
+                padding: 15px 10px;
+            }
+
             .Navbar h1 {
                 font-size: 32px;
-            }
-
-            .Hero h2 {
-                font-size: 30px;
-            }
-
-            .Hero p {
-                font-size: 17px;
             }
 
             .Navbar button {
                 padding: 10px 14px;
                 font-size: 14px;
+                margin: 4px 2px;
+            }
+
+            .Hero {
+                margin: 25px 12px;
+                padding: 30px 15px;
+            }
+
+            .Hero img {
+                width: 400px;
+                max-width: 100%;
+            }
+
+            .Hero h2 {
+                font-size: 30px;
+                margin-top: 28px;
+            }
+
+            .Hero p {
+                font-size: 17px;
+                padding: 10px 12px;
             }
         }
+
+        @media (max-width: 400px) {
+
+            .Navbar h1 {
+                font-size: 28px;
+            }
+
+            .Navbar button {
+                padding: 9px 11px;
+                font-size: 13px;
+            }
+
+            .Hero {
+                margin: 20px 8px;
+                padding: 25px 12px;
+            }
+
+            .Hero h2 {
+                font-size: 27px;
+            }
+
+            .Hero p {
+                font-size: 16px;
+            }
+        }
+
     </style>
+
 </head>
 
 <body>
 
     <div class="Navbar">
+
         <h1>Cristiano Ronaldo</h1>
 
-        <a href="Index.html"><button>Home</button></a>
-        <a href="Biodata.html"><button>Biodata</button></a>
+        <a href="Index.html">
+            <button>Home</button>
+        </a>
+
+        <a href="Biodata.html">
+            <button>Biodata</button>
+        </a>
+
         <a href="Career and achievment.html">
             <button>Career & Achievements</button>
         </a>
-        <a href="MiniGame.html"><button>Mini Game</button></a>
+
+        <a href="MiniGame.html">
+            <button>Mini Game</button>
+        </a>
+
     </div>
 
     <div class="Hero">
-        <img src="Ronaldo.jpg" alt="Cristiano Ronaldo">
+
+        <img
+            src="Ronaldo achievment.jpeg"
+            alt="Cristiano Ronaldo"
+        >
 
         <h2>Club career history</h2>
 
         <p>
             1992–1995: Andorinha (Youth)
         </p>
-        <P>
-           1995–1997: Nacional (Youth)
-        </P>
-        <P>
-          1997–2002: Sporting CP (Youth)
-        </P>
-        <P>
-          2002–2003: Sporting CP
-        </P>
+
         <p>
-           2003–2009: Manchester United
+            1995–1997: Nacional (Youth)
         </p>
+
         <p>
-           2009–2018: Real Madrid
+            1997–2002: Sporting CP (Youth)
         </p>
+
         <p>
-           2018–2021: Juventus
+            2002–2003: Sporting CP
         </p>
+
+        <p>
+            2003–2009: Manchester United
+        </p>
+
+        <p>
+            2009–2018: Real Madrid
+        </p>
+
+        <p>
+            2018–2021: Juventus
+        </p>
+
         <p>
             2021–2022: Manchester United
         </p>
+
         <p>
             2023–Present: Al-Nassr FC
         </p>
-         <h2>Major achievment</h2>
+
+        <h2>Major achievment</h2>
 
         <p>
-           Ballon d'Or: 5-time winner (2008, 2013, 2014, 2016, 2017)
+            Ballon d'Or: 5-time winner (2008, 2013, 2014, 2016, 2017)
         </p>
-        <P>
-          European Golden Shoe: 4-time winner
-        </P>
-        <P>
-          UEFA Champions League: 5 titles (1 with Man Utd, 4 with Real Madrid)
-        </P>
-        <P>
-          World Records: All-time top international male goalscorer, and the first male player to feature in six consecutive FIFA World Cups up to 2026.
-        </P>
-      
+
+        <p>
+            European Golden Shoe: 4-time winner
+        </p>
+
+        <p>
+            UEFA Champions League: 5 titles (1 with Man Utd, 4 with Real Madrid)
+        </p>
+
+        <p>
+            World Records: All-time top international male goalscorer, and the first male player to feature in six consecutive FIFA World Cups up to 2026.
+        </p>
+
     </div>
 
 </body>
+
 </html>
